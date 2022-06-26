@@ -10,10 +10,6 @@ public class Visitor {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param date
-	 */
 	public void visit(Datei date) {
 		// TODO - implement Visitor.visit
 		throw new UnsupportedOperationException();

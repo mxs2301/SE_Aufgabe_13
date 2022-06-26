@@ -1,35 +1,24 @@
 package com.schopf;
-public class Component {
 
+import java.util.ArrayList;
+
+public abstract class Component {
+	private ArrayList<Component> data;
 	private String name;
 
-	/**
-	 * 
-	 * @param Component
-	 */
-	public void add(int Component) {
-		// TODO - implement Component.add
-		throw new UnsupportedOperationException();
+	public void add(Component e) {
+		data.add(e);
 	}
 
-	/**
-	 * 
-	 * @param Component
-	 */
-	public void remove(int Component) {
-		// TODO - implement Component.remove
-		throw new UnsupportedOperationException();
+	public void remove(Component e) {
+		data.remove(e);
 	}
 
 	public void getChild() {
 		// TODO - implement Component.getChild
 		throw new UnsupportedOperationException();
 	}
-
-	/**
-	 * 
-	 * @param visit
-	 */
+	
 	public void accept(Visit visit) {
 		// TODO - implement Component.accept
 		throw new UnsupportedOperationException();
