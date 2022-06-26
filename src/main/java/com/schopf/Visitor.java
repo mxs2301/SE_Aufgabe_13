@@ -1,3 +1,4 @@
+package com.schopf;
 public class Visitor {
 
 	/**

@@ -1,3 +1,4 @@
+package com.schopf;
 public class Component {
 
 	private String name;
