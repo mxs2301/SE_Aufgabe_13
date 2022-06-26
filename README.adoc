@@ -1,6 +1,7 @@
 = README
 
 *To-Do*
+
 * Aufgabenstellung ansehen
 * Verschiedene Youtube Videos ansehen
 * Code Gerüstaufbauen
