@@ -54,4 +54,9 @@ public class Rechner implements Mathe{
 	private void print(Double input){
 		System.out.println(input);
 	}
+
+	
+	public void accept(MatheVisitor visitor){
+		visitor.visit(this);
+	}
 }

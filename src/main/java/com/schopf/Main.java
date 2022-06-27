@@ -8,5 +8,7 @@ public class Main{
 		Neiße = generator.decide();
 		Neiße.calculator();
 
+		Neiße.accept(new MatheVisitorDisplayer());
+
 	}
 }

@@ -26,4 +26,8 @@ public class Umrechnung implements Mathe {
 		scr.close();
 	}
 
+	public void accept(MatheVisitor visitor){
+		visitor.visit(this);
+	}
+
 }
