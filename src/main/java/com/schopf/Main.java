@@ -2,6 +2,11 @@ package com.schopf;
 
 public class Main{
 	public static void main(String[] args) {
-		System.out.println("HI");
+
+		Mathe Neiße;
+		Math_Generator generator = new Math_Generator();
+		Neiße = generator.decide();
+		Neiße.calculator();
+
 	}
 }
